@@ -10,7 +10,7 @@ import Skills from "./components/skills/Skills.js";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {document.body.scrollHeight >= 0 ? <Header /> : null}
       <Intro />
       <Skills />
       <Experience />
