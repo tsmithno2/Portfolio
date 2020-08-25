@@ -11,7 +11,15 @@ function Header() {
         expand="sm"
         bg="primary"
         variant="dark"
-      ></ReactBootStrap.Navbar>
+      >
+        <ReactBootStrap.Nav className="justify-content-end" activeKey="/home">
+          <ReactBootStrap.Nav.Item>Home</ReactBootStrap.Nav.Item>
+          <ReactBootStrap.Nav.Item>Skills</ReactBootStrap.Nav.Item>
+          <ReactBootStrap.Nav.Item>Experience</ReactBootStrap.Nav.Item>
+          <ReactBootStrap.Nav.Item>Intro To Me</ReactBootStrap.Nav.Item>
+          <ReactBootStrap.Nav.Item>Contact</ReactBootStrap.Nav.Item>
+        </ReactBootStrap.Nav>
+      </ReactBootStrap.Navbar>
     </div>
   );
 }
