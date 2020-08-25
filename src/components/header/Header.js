@@ -6,14 +6,12 @@ import "./Header.css";
 function Header() {
   return (
     <div className="Header">
-      <ul className="NavButtons">
-        <li>Home</li>
-        <li>Skills</li>
-        <li>Experience</li>
-        <li>About Me</li>
-        <li>Contact</li>
-      </ul>
-      <p>Header</p>
+      <ReactBootStrap.Navbar
+        collapseOnSelect
+        expand="sm"
+        bg="primary"
+        variant="dark"
+      ></ReactBootStrap.Navbar>
     </div>
   );
 }
