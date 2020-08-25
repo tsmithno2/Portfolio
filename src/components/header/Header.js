@@ -12,13 +12,15 @@ function Header() {
         bg="primary"
         variant="dark"
       >
-        <ReactBootStrap.Nav className="justify-content-end" activeKey="/home">
-          <ReactBootStrap.Nav.Item>Home</ReactBootStrap.Nav.Item>
-          <ReactBootStrap.Nav.Item>Skills</ReactBootStrap.Nav.Item>
-          <ReactBootStrap.Nav.Item>Experience</ReactBootStrap.Nav.Item>
-          <ReactBootStrap.Nav.Item>Intro To Me</ReactBootStrap.Nav.Item>
-          <ReactBootStrap.Nav.Item>Contact</ReactBootStrap.Nav.Item>
-        </ReactBootStrap.Nav>
+        <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+          <ReactBootStrap.Nav className="justify-content-end" activeKey="/home">
+            <ReactBootStrap.Nav.Item>Home</ReactBootStrap.Nav.Item>
+            <ReactBootStrap.Nav.Item>Skills</ReactBootStrap.Nav.Item>
+            <ReactBootStrap.Nav.Item>Experience</ReactBootStrap.Nav.Item>
+            <ReactBootStrap.Nav.Item>Contact</ReactBootStrap.Nav.Item>
+          </ReactBootStrap.Nav>
+        </ReactBootStrap.Navbar.Collapse>
       </ReactBootStrap.Navbar>
     </div>
   );
