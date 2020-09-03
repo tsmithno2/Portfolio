@@ -5,14 +5,14 @@ class Skills extends Component {
   render() {
     return (
       <div className="SkillsFull">
-        <div classNamer="SkillDescrip">
-          <div classNamer="SDCard"></div>
+        <div className="SkillDescrip">
+          <div className="SDCard"></div>
         </div>
-        <div classNamer="SkillsCards">
-          <div classNamer="C#Card"></div>
-          <div classNamer="JSCard"></div>
-          <div classNamer="BackendCard"></div>
-          <div classNamer="OtherCard"></div>
+        <div className="SkillsCards">
+          <div className="C#Card"></div>
+          <div className="JSCard"></div>
+          <div className="BackendCard"></div>
+          <div className="OtherCard"></div>
         </div>
       </div>
     );
