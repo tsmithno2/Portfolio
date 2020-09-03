@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Experience from "./components/experience/Experience.js";
-import Footer from "./components/footer/Footer.js";
 import Header from "./components/header/Header.js";
 import Skills from "./components/skills/Skills.js";
 import Intro from "./components/intro/Intro";
@@ -15,7 +14,6 @@ function App() {
       <Skills />
       <Experience />
       <Contact />
-      <Footer />
     </div>
   );
 }
