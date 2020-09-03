@@ -34,14 +34,12 @@
   background-color: chocolate;
 }
 .BackendCard {
-  height: 100vh;
+  height: 65vh;
   width: 17vw;
   background-color: teal;
-  margin-left: 3vw;
 }
 .OtherCard {
-  height: 100vh;
+  height: 65vh;
   width: 17vw;
   background-color: crimson;
-  margin-left: 3vw;
 }
