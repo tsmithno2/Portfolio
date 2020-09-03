@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Component } from "react";
 import "./Contact.css";
 
-class Intro extends Component {
+class Contact extends Component {
   render() {
     return (
       <div className="ContactFull">
@@ -11,4 +11,4 @@ class Intro extends Component {
   }
 }
 
-export default Component;
+export default Contact;
