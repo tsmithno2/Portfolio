@@ -1,6 +1,5 @@
 import React, { useState, useEffect, Component } from "react";
 import "./Intro.css";
-import { render } from "@testing-library/react";
 
 class Intro extends Component {
   checkButtonClick() {
