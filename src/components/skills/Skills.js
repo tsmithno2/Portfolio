@@ -5,7 +5,15 @@ class Skills extends Component {
   render() {
     return (
       <div className="SkillsFull">
-        <p>Skills</p>
+        <div classNamer="SkillDescrip">
+          <div classNamer="SDCard"></div>
+        </div>
+        <div classNamer="SkillsCards">
+          <div classNamer="C#Card"></div>
+          <div classNamer="JSCard"></div>
+          <div classNamer="BackendCard"></div>
+          <div classNamer="OtherCard"></div>
+        </div>
       </div>
     );
   }
