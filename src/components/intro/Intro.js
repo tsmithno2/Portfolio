@@ -13,7 +13,7 @@ class Intro extends Component {
 
   render() {
     return (
-      <div className="Intro">
+      <div className="IntroFull">
         <div className="TopIntro">
           <p>Intro Top 2/3</p>
           <button
