@@ -3,7 +3,7 @@ import "./Experience.css";
 
 function Experience() {
   return (
-    <div>
+    <div className="ExpFull">
       <p>Experience</p>
     </div>
   );

@@ -3,7 +3,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div>
+    <div className="SkillsFull">
       <p>Skills</p>
     </div>
   );
