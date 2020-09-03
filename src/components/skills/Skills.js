@@ -8,8 +8,8 @@ class Skills extends Component {
         <div className="SkillDescrip">
           <div className="SDCard"></div>
         </div>
-        <div className="SkillsCards">
-          <div className="C#Card"></div>
+        <div className="SCards">
+          <div className="CSCard"></div>
           <div className="JSCard"></div>
           <div className="BackendCard"></div>
           <div className="OtherCard"></div>

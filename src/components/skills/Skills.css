@@ -3,3 +3,40 @@
   width: 100vw;
   background-color: forestgreen;
 }
+.SkillDescrip {
+  height: 20vh;
+  width: 84vw;
+  background-color: darkblue;
+  margin-bottom: 5vh;
+}
+.SDCard {
+  height: 18vh;
+  width: 84vw;
+  background-color: lightblue;
+}
+.SCards {
+  height: 75vh;
+  width: 84vw;
+  padding-top: 30vh;
+  background-color: black;
+}
+.CSCard {
+  height: 100vh;
+  width: 17vw;
+  background-color: purple;
+}
+/* .JSCard {
+  height: 100vh;
+  width: 17vw;
+  background-color: chocolate;
+}
+.BackendCard {
+  height: 100vh;
+  width: 17vw;
+  background-color: teal;
+}
+.OtherCard {
+  height: 100vh;
+  width: 17vw;
+  background-color: crimson;
+} */
