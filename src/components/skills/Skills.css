@@ -3,28 +3,40 @@
   height: 100vh;
   width: 100vw;
   background-color: forestgreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 /* entire description section */
 .SkillDescrip {
   height: 20vh;
   width: 84vw;
   background-color: darkblue;
-  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 /* description section card*/
 .SDCard {
   height: 18vh;
   width: 84vw;
   background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
 }
 /* this is the div with the cards in it */
 .SCards {
   height: 75vh;
   width: 84vw;
   background-color: black;
+  display: flex;
+  justify-content: space-around;
+  margin: 0, 5vh, 0, 5vh;
 }
 .CSCard {
-  height: 65vh;
+  height: 75vh;
   width: 17vw;
   background-color: purple;
 }
